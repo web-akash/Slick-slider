@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.section {
+  position: relative;
+}
+body {
+  overflow-x: hidden;
+}
+.slider {
+  height: 500px;
+  position: absolute;
+  width: 100%;
+  background-size: cover;
+  transform: translateX(100%);
+}
+.active {
+  transform: translateX(0%);
+}
+.one {
+  background-image: url("../images/2d9n00e.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.two {
+  background-image: url("../images/4-Powerful-technologies-in-1-MERN-STACK.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.three {
+  background-image: url("../images/889210.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.next {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  background-color: white;
+  position: absolute;
+  right: 50px;
+  top: 250px;
+  text-align: center;
+  z-index: 99;
+}
+.prev {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  background-color: white;
+  position: absolute;
+  left: 50px;
+  top: 250px;
+  text-align: center;
+}
+.smoth {
+  transition: 0.4s ease;
+}
